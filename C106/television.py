@@ -15,7 +15,7 @@ def getDataSource(data_path):
 
 def findCorrelation(datasource):
     correlation = np.corrcoef(datasource["x"], datasource["y"])
-    print("Correlation between Size of Tv and Average time spent watching Tv in a week :-  \n--->",correlation[0,1])
+    print("Correlation: ",correlation[0,1])
 
 def setup():
     data_path  = "./data/Size of TV,	Average time spent watching TV in a week (hours).csv"
