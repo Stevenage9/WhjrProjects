@@ -1,0 +1,19 @@
+.menu{
+color: #ffffff;
+text-align:justify;
+font-size:x-large;
+padding: 15px;
+}
+
+body{
+    background-color:rgb(47, 47, 47); ;
+}
+
+ul{
+    color: rgb(240, 251, 178);
+    font-size: 18px;
+}
+h1{
+    color: rgb(253, 255, 149);
+    text-align: center;
+}
